@@ -15,11 +15,11 @@ const newAnimal  = {
     raza   : race
 }
 
-return newAnimaljifd
+return newAnimal 
 
 } catch (error) {
     
-throw new Error(` hubo un problema al crear el animal  : ${error}`)
+console.log(error);
 
 }
 
